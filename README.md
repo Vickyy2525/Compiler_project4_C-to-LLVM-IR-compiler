@@ -6,11 +6,28 @@ myCompiler_test.java 為呼叫來檢查。
 ## Execute:
 執行前得先確定有安裝 lli 跟 llc
 在終端機輸入 make test1 測試 test1.c 產生 test1.ll 跟未被最佳化的組合語言 test1.s 以及產生執行檔 ./test1 後執行執行檔
+```bash
+make test1
+```
 在終端機輸入 make test2 測試 test2.c 產生 test2.ll 跟未被最佳化的組合語言 test2.s 以及產生執行檔 ./test2 後執行執行檔
+```bash
+make test2
+```
 在終端機輸入 make test3 測試 test3.c 產生 test3.ll 跟未被最佳化的組合語言 test3.s 以及產生執行檔 ./test3 後執行執行檔
+```bash
+make test3
+```
 若未需要執行下筆測資，可以 make clean 清除執行之前產生的檔案
+```bash
+make clean
+```
 若要重複執行同筆測資，請先 make clean 清除當前的執行檔，才能執行同樣的 target
 例如：已經 make test1 一次，想再執行一次 make test1，得先執行 make clean 才能執行 make test1
+```bash
+make test1
+make clean
+make test1
+```
 
 ## 清除 Execute 所產生的檔案:
 在終端機輸入 make clean 清除執行產生的 myCheckerLexer.java, myCheckerParser.java, myChecker.tokens 及 class 檔
