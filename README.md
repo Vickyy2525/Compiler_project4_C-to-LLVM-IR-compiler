@@ -38,7 +38,7 @@ myCompiler_test.java 為呼叫來檢查。
 - Comparison expression. (e.g. score >= 80), comparison operation: >、>=、<、<=、==、!=
 - if-then / if-then-else program constructs.
 - printf() function with one/two parameters. (support types: %d)
-* bonus part:
+bonus part:
 - Nested if construct 
 
 2. test2.c 有包含以下功能
@@ -51,5 +51,5 @@ myCompiler_test.java 為呼叫來檢查。
 3. test3.c 有包含以下功能
 - Integer data types: int
 - Statements for arithmetic computation. (e.g. b = a + 2;)
-* bonus part:
+bonus part:
 - printf() function with several parameters. (support types: %d)
